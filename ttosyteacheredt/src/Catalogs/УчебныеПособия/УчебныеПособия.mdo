@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e96151f-7c33-11ea-a782-32001126e000">
+  <producedTypes>
+    <objectType typeId="0e96150a-7c33-11ea-a782-32001126e000" valueTypeId="0e96150b-7c33-11ea-a782-32001126e000"/>
+    <refType typeId="0e96150c-7c33-11ea-a782-32001126e000" valueTypeId="0e96150d-7c33-11ea-a782-32001126e000"/>
+    <selectionType typeId="0e961514-7c33-11ea-a782-32001126e000" valueTypeId="0e961515-7c33-11ea-a782-32001126e000"/>
+    <listType typeId="0e961516-7c33-11ea-a782-32001126e000" valueTypeId="0e961517-7c33-11ea-a782-32001126e000"/>
+    <managerType typeId="0e961518-7c33-11ea-a782-32001126e000" valueTypeId="0e96151e-7c33-11ea-a782-32001126e000"/>
+  </producedTypes>
+  <name>УчебныеПособия</name>
+  <synonym>
+    <key>en</key>
+    <value>Учебные пособия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчебныеПособия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УчебныеПособия.StandardAttribute.Code</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

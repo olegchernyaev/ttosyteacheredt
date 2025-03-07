@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7d599d1-456b-45aa-801e-975240bc1cf8">
+  <producedTypes>
+    <managerType typeId="2955432f-a805-462c-8693-d3f13fb0e7fc" valueTypeId="63a7be7e-3315-4da8-864a-483dee9b9e9a"/>
+    <valueManagerType typeId="490c38da-90eb-4f3e-83c2-eb2dadfd352c" valueTypeId="cf98ca3f-6c0f-44b2-a7be-d5e4536fabe4"/>
+    <valueKeyType typeId="a683b88e-fc7d-42db-9cfb-04fd41656579" valueTypeId="b71fceab-4b13-4c78-af82-0ae815a654ac"/>
+  </producedTypes>
+  <name>ПланировщикЗадачВремяС</name>
+  <synonym>
+    <key>en</key>
+    <value>Планировщик задач время С</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <scale>1</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

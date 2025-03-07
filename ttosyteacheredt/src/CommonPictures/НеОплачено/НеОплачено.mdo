@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf10cff1-6782-406b-9926-367f306d9bd5">
+  <name>НеОплачено</name>
+  <synonym>
+    <key>en</key>
+    <value>Не оплачено</value>
+  </synonym>
+</mdclass:CommonPicture>

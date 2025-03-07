@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ceabb99f-c864-4f76-beb2-1e15d02c166e">
+  <producedTypes>
+    <objectType typeId="4f33627c-099b-4806-81c7-9263b5ce4205" valueTypeId="70a7a200-69ef-47c0-9a70-656a4515c4e9"/>
+    <managerType typeId="3d0b633b-8508-4cc4-bb46-cf2064ff578b" valueTypeId="008b887a-b6bd-42ca-a10a-f518e4e2cf14"/>
+  </producedTypes>
+  <name>ГрафикЗанятий</name>
+  <synonym>
+    <key>en</key>
+    <value>График занятий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ГрафикЗанятий.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ГрафикЗанятий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="77250d4c-0d91-4f59-867b-8747a0ccbf03">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e970b3dc-c474-4788-a734-dbf13457d0b0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

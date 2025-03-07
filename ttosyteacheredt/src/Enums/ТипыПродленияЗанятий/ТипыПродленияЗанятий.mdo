@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eefb289b-3143-4427-b6c4-ed79baaa5e01">
+  <producedTypes>
+    <refType typeId="55334694-6477-45cc-9ee1-b50ed3d367c0" valueTypeId="5da97da6-17f4-4e85-b91a-9a90d2a1f5d6"/>
+    <listType typeId="3b182749-432d-43ac-b070-c3cfdfb6a658" valueTypeId="37de2249-21d4-4ce3-bb6c-87c3494b55c3"/>
+    <managerType typeId="b67893e7-f13b-497a-af1a-c4fba639e10a" valueTypeId="6efab47c-6a37-42dc-92e2-7be5c76dfb87"/>
+  </producedTypes>
+  <name>ТипыПродленияЗанятий</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы продления занятий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f40861df-b205-41bb-84be-b2926091f739">
+    <name>НаНеделю</name>
+    <synonym>
+      <key>en</key>
+      <value>На неделю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee06c40c-bc80-410e-b628-49b79bbbf40c">
+    <name>НаДвеНедели</name>
+    <synonym>
+      <key>en</key>
+      <value>На две недели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b38ecd4-a4e7-43fa-a2c7-87f5aa5db68c">
+    <name>НаТриНедели</name>
+    <synonym>
+      <key>en</key>
+      <value>На три недели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="000d2a2e-3876-415e-b117-28d306b24398">
+    <name>НаЧетыреНедели</name>
+    <synonym>
+      <key>en</key>
+      <value>На четыре недели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ea2d464-1ccb-48b6-b105-3812e4451a9e">
+    <name>ДоКонцаМесяца</name>
+    <synonym>
+      <key>en</key>
+      <value>До конца месяца</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

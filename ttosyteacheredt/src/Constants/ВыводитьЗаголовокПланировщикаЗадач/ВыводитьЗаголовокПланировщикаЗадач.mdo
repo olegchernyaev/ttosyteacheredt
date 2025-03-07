@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baaeddd1-46c8-4fb3-abdb-c978759aea62">
+  <producedTypes>
+    <managerType typeId="2d353849-93cf-4074-8b9f-76ed223766f7" valueTypeId="eab551db-35fe-4ffe-b3ae-ebc2430c2a3e"/>
+    <valueManagerType typeId="6787b643-08a4-4657-917d-29af073a84a8" valueTypeId="cc0b3fc4-aacd-4b16-8f62-d50e15329ab8"/>
+    <valueKeyType typeId="61edce8c-07c5-4ad9-8f20-6e683810279e" valueTypeId="76b98ab4-3c12-4372-a5c5-df7db31b3a05"/>
+  </producedTypes>
+  <name>ВыводитьЗаголовокПланировщикаЗадач</name>
+  <synonym>
+    <key>en</key>
+    <value>Выводить заголовок планировщика задач</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02e456b6-7c30-11ea-a782-32001126e000">
+  <producedTypes>
+    <refType typeId="02e456a2-7c30-11ea-a782-32001126e000" valueTypeId="02e456a3-7c30-11ea-a782-32001126e000"/>
+    <listType typeId="02e456a4-7c30-11ea-a782-32001126e000" valueTypeId="02e456ac-7c30-11ea-a782-32001126e000"/>
+    <managerType typeId="02e456ad-7c30-11ea-a782-32001126e000" valueTypeId="02e456ae-7c30-11ea-a782-32001126e000"/>
+  </producedTypes>
+  <name>ТипыУчебныхЗаведений</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы учебных заведений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="18a610de-7c30-11ea-a782-32001126e000">
+    <name>ДетскийСад</name>
+    <synonym>
+      <key>en</key>
+      <value>Детский сад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0cd72ef0-7c30-11ea-a782-32001126e000">
+    <name>Школа</name>
+    <synonym>
+      <key>en</key>
+      <value>Школа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1003de48-7c30-11ea-a782-32001126e000">
+    <name>Лицей</name>
+    <synonym>
+      <key>en</key>
+      <value>Лицей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1480a4f6-7c30-11ea-a782-32001126e000">
+    <name>Гимназия</name>
+    <synonym>
+      <key>en</key>
+      <value>Гимназия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20a68f98-7c30-11ea-a782-32001126e000">
+    <name>Колледж</name>
+    <synonym>
+      <key>en</key>
+      <value>Колледж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2404f328-7c30-11ea-a782-32001126e000">
+    <name>Институт</name>
+    <synonym>
+      <key>en</key>
+      <value>Институт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

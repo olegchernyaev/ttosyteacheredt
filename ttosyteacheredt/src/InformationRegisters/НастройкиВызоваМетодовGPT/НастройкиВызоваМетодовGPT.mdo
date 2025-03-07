@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31d7a1d2-8bc4-4921-9639-8813f54f5967">
+  <producedTypes>
+    <selectionType typeId="caee3b8d-c8e9-4f79-b3ef-4364b6c939e8" valueTypeId="b235f3fd-51cb-4d72-ad46-013c99528392"/>
+    <listType typeId="282ac3fd-7fdd-4444-b061-317f6e385004" valueTypeId="0725c0ca-8fa2-49dd-917e-c6e79b92bfce"/>
+    <managerType typeId="624b039a-cbfe-40ee-8c00-93aedae27f18" valueTypeId="7ce5da52-5b44-451c-b73a-930ff7ed7756"/>
+    <recordSetType typeId="b14fd14b-605a-43c4-8849-5fc1c9f97e68" valueTypeId="472af843-36d0-4e01-98fe-eb1951b1260e"/>
+    <recordKeyType typeId="adee140c-eff9-48b2-be72-41871f73f32c" valueTypeId="9377f369-2eaf-47e9-b74f-6a2ad5732a4f"/>
+    <recordType typeId="79899c8d-83b8-4a5f-9496-627d6198812b" valueTypeId="aa6ef6e5-841b-494f-bc65-89e7b83d55e2"/>
+    <recordManagerType typeId="2b94d338-81a7-4c77-b27b-1e9caa39a6eb" valueTypeId="624d6f83-ae33-4375-adf4-8e2d770ca000"/>
+  </producedTypes>
+  <name>НастройкиВызоваМетодовGPT</name>
+  <synonym>
+    <key>en</key>
+    <value>Настройки вызова методов GPT</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="45d598be-319d-4ff9-9745-7b50137bf674">
+    <name>АдресРесурса</name>
+    <synonym>
+      <key>en</key>
+      <value>Адрес ресурса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="cd39437b-311c-4ba2-8744-7fdfb27abb9e">
+    <name>Модель</name>
+    <synonym>
+      <key>en</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="4f0c7509-cf0b-4918-85f9-8b8114d95ff1">
+    <name>Таймаут</name>
+    <synonym>
+      <key>en</key>
+      <value>Таймаут</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9419b7af-8ed3-4ccb-8947-280e8ac73518">
+    <name>Используется</name>
+    <synonym>
+      <key>en</key>
+      <value>Используется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="828b7aea-68b8-44fb-a315-f55f0aa6bac6">
+    <name>УровеньКреативности</name>
+    <synonym>
+      <key>en</key>
+      <value>Уровень креативности</value>
+    </synonym>
+    <comment>temperature - может принимать значение от 0 до 1</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="83897aa4-8be2-4643-98dc-aff9c7952871">
+    <name>КоличествоВариантовОтвета</name>
+    <synonym>
+      <key>en</key>
+      <value>Количество вариантов ответа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fe65aff2-5373-4ff5-8e5f-f3cf3dddc817">
+    <name>Метод</name>
+    <synonym>
+      <key>en</key>
+      <value>Метод</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МетодыGPT</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

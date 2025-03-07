@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcb8721f-be09-4eb9-85a8-40cad8d70747">
+  <producedTypes>
+    <managerType typeId="c42ca6d1-5b0f-4a2a-a0ec-66a14cdfa77b" valueTypeId="85ccf74a-272d-40c7-b191-d8d17203647b"/>
+    <valueManagerType typeId="a8f0ff46-cfd6-4c4d-a827-e30d935b9464" valueTypeId="583afa30-cdbc-423e-a0d2-87470e466bae"/>
+    <valueKeyType typeId="c49ac160-5930-4a1c-8e38-a24cde9ef21d" valueTypeId="da4322d1-fc15-401f-a7d3-111ad510439d"/>
+  </producedTypes>
+  <name>ТаймаутGPT</name>
+  <synonym>
+    <key>en</key>
+    <value>Таймаут GPT</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

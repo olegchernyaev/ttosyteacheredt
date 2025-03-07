@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0596dcbb-b5d4-436e-b2a6-d59518c1103c">
+  <producedTypes>
+    <selectionType typeId="fef85d4f-b120-4623-970f-76d81ecc9834" valueTypeId="ffb4f8c9-71ee-46cb-bd1e-9ec8ccf27c2a"/>
+    <listType typeId="ec4c6a18-1583-4fa1-b0d7-17cc17134fa0" valueTypeId="ee0053cb-55a5-442b-8fbd-2235ec81732c"/>
+    <managerType typeId="cf9d3aeb-5334-4019-ad19-e95e5b669ea0" valueTypeId="c044762d-7a7c-43de-ad5f-996eb790d6ed"/>
+    <recordSetType typeId="ff406fc1-a1d4-4746-9b85-29bf1edcd08d" valueTypeId="63c0029a-5425-482c-8056-8b8e9d0b8455"/>
+    <recordKeyType typeId="45b7ddde-b0cf-4220-8edc-705148cc81ed" valueTypeId="79f8e49f-0b55-4ed5-8fbc-4823591d0912"/>
+    <recordType typeId="a866711a-ef19-48ad-880f-7924b5901799" valueTypeId="6431f60f-e411-4883-a16f-2c2d85c462ea"/>
+    <recordManagerType typeId="93e35bde-01f6-4c61-b157-ec73408228ac" valueTypeId="a65ae566-b436-4e6a-839a-6eb68187441b"/>
+  </producedTypes>
+  <name>СлучайныеФакты</name>
+  <synonym>
+    <key>en</key>
+    <value>Случайные факты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8e2d8ff4-5c9a-4fcd-ac81-26fa8a066ccb">
+    <name>СлучайныйФакт</name>
+    <synonym>
+      <key>en</key>
+      <value>Случайный факт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+</mdclass:InformationRegister>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="089d7f48-44cf-441b-8742-4187147deb18">
+  <producedTypes>
+    <objectType typeId="7572fec9-8783-4717-bfe9-8a41b1409c86" valueTypeId="9c444577-5dd8-402e-b788-169e67ead9cc"/>
+    <managerType typeId="f1f5c902-1699-4384-bf14-ead041654950" valueTypeId="25a3febe-3ea4-4569-b1fd-ca958e97ef53"/>
+  </producedTypes>
+  <name>РаботаСУроком</name>
+  <synonym>
+    <key>en</key>
+    <value>Работа с уроком</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

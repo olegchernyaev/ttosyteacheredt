@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16dce157-b4f5-4067-8df2-c4029b86a53c">
+  <name>РаботаСGPT</name>
+  <synonym>
+    <key>en</key>
+    <value>Работа СGPT</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.РаботаСGPT</content>
+  <content>Constant.АдресСервераGPT</content>
+  <content>Constant.ТокенАвторизацииGPT</content>
+  <content>Constant.ТаймаутGPT</content>
+  <content>Catalog.МетодыGPT</content>
+  <content>InformationRegister.НастройкиВызоваМетодовGPT</content>
+  <content>InformationRegister.СлучайныеФакты</content>
+  <content>InformationRegister.СлучайныеПожелания</content>
+  <content>Constant.НеВыводитьСлучайныеФакты</content>
+  <content>Constant.НеВыводитьСлучайныеПожелания</content>
+</mdclass:Subsystem>

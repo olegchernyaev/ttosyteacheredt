@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e82eddaa-6e9f-4631-9d21-58c4349bc230">
+  <producedTypes>
+    <managerType typeId="a63548f1-1f7b-47bd-9c94-237115b1ee25" valueTypeId="86924cb9-78c3-407a-a7cb-c1725f7dab25"/>
+    <valueManagerType typeId="9a793b9e-3f69-4932-823e-9f8cc693dbd0" valueTypeId="a43a747e-24f3-43a7-9ae8-d95a5188df74"/>
+    <valueKeyType typeId="cd5bdd0c-06ad-4b70-a494-fbb641e221c9" valueTypeId="8f69ba53-9f5f-47a0-9a57-53a334f8af01"/>
+  </producedTypes>
+  <name>НижняяГраницаНапоминанийОСтатусахЗанятий</name>
+  <synonym>
+    <key>en</key>
+    <value>Нижняя граница напоминаний о статусах занятий</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

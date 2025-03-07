@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87720c07-b7a8-48c8-a9bd-6179338ad84b">
+  <producedTypes>
+    <refType typeId="17d7a2ce-b625-400b-ab86-72fd24de4a13" valueTypeId="a90fc372-9a12-4161-86fc-28aeae11fca9"/>
+    <listType typeId="880b0278-be7f-4528-a93e-63a6e8a6462e" valueTypeId="7a00ad2f-2d7d-4363-9f78-534ade30a0a2"/>
+    <managerType typeId="cae7fcba-7618-4805-84fb-84c25de92ab9" valueTypeId="3e6aac55-3446-4938-af4d-0169204a77a5"/>
+  </producedTypes>
+  <name>ИсточникиПривлеченияКлиентов</name>
+  <synonym>
+    <key>en</key>
+    <value>Источники привлечения клиентов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="66c7ff73-4ee3-4b38-9131-cff0e8b2f240">
+    <name>Сайт</name>
+    <synonym>
+      <key>en</key>
+      <value>Сайт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="959ac6ea-cbd6-471a-a8ea-a3397f159735">
+    <name>Промоакции</name>
+    <synonym>
+      <key>en</key>
+      <value>Промоакции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da95e3c1-ef08-4457-9600-d6cccd89cbd2">
+    <name>РекламаУБлогеров</name>
+    <synonym>
+      <key>en</key>
+      <value>Реклама у блогеров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32a6fc19-2069-445b-a741-c078ae854a03">
+    <name>РекламаВТелеграме</name>
+    <synonym>
+      <key>en</key>
+      <value>Реклама в телеграме</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

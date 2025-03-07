@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b572c48-1364-49ea-83e7-168a835cbe78">
+  <producedTypes>
+    <refType typeId="dbb6f5cb-fa84-413e-a4a3-9c7bc0508e64" valueTypeId="d9a6ea7b-eaf6-4ab4-96c9-65b54ae666c4"/>
+    <listType typeId="b63dcb85-5a3b-428d-9abe-9806c38b1f0e" valueTypeId="a9652517-70db-4b83-bbcf-e5ce3de1fe56"/>
+    <managerType typeId="204b2b00-6af0-485d-8877-ac6cda40ea8f" valueTypeId="bd67d8b4-f64e-44dd-905c-ce30d47aafda"/>
+  </producedTypes>
+  <name>СтатусыЗанятий</name>
+  <synonym>
+    <key>en</key>
+    <value>Статусы занятий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="20d0b8dc-a28f-47a3-900f-53f85cd02a51">
+    <name>ПроведеноИОплачено</name>
+    <synonym>
+      <key>en</key>
+      <value>Проведено и оплачено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7570000-9b48-49e6-a450-16eb12873556">
+    <name>Проведено</name>
+    <synonym>
+      <key>en</key>
+      <value>Проведено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e251f3b8-b9c1-460b-8ffb-e8ee41d3b302">
+    <name>Оплачено</name>
+    <synonym>
+      <key>en</key>
+      <value>Оплачено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6492eb8-444f-41f3-bc66-a379761f074f">
+    <name>Подтверждено</name>
+    <synonym>
+      <key>en</key>
+      <value>Подтверждено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9494e1af-220d-469e-8829-7fc8382a9658">
+    <name>НеПодтверждено</name>
+    <synonym>
+      <key>en</key>
+      <value>Не подтверждено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b2c5106-31c1-477b-a486-2df0f289ce69">
+    <name>Отменено</name>
+    <synonym>
+      <key>en</key>
+      <value>Отменено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f696dff-55aa-4e2a-a8b0-9e2bb4922820">
+    <name>Перенесено</name>
+    <synonym>
+      <key>en</key>
+      <value>Перенесено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

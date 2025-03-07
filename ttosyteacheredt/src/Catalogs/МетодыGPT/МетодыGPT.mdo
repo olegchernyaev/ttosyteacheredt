@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b49bd887-b07e-4c6c-bdab-8fa5d1e766fa">
+  <producedTypes>
+    <objectType typeId="8f7621da-a64a-4424-9c39-13f636be02ea" valueTypeId="c655fa22-3c3c-4387-918f-4d98f8912c79"/>
+    <refType typeId="39f6ea28-e105-4aa1-8a3b-d4091d9daa7b" valueTypeId="f4a62473-502a-4e6c-ac3d-0205bb73b32c"/>
+    <selectionType typeId="a662a967-4831-4bc0-812c-a2d25df17de2" valueTypeId="a95d2af0-4eb8-4731-be0a-49075b71f108"/>
+    <listType typeId="33575b7c-21fc-4309-a96f-bb34d1d75c6c" valueTypeId="36d2018c-b1a2-4418-9b4c-f2eb91ebcb5c"/>
+    <managerType typeId="fc2d5f3a-3fbf-44e0-87e4-ab62cf727898" valueTypeId="f43fa227-f09d-4f71-98ea-6e7d3af9d149"/>
+  </producedTypes>
+  <name>МетодыGPT</name>
+  <synonym>
+    <key>en</key>
+    <value>Методы GPT</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МетодыGPT.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МетодыGPT.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3dee391e-f31d-43c1-9d2d-5b19ea6fa694">
+      <name>СлучайноеПожелание</name>
+      <description>Случайное пожелание</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="59226730-53c5-4e59-8f90-6303561f5aae">
+      <name>СлучайныйФакт</name>
+      <description>Случайный факт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МетодыGPT.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="9bfcb593-8c52-481f-9ff2-299765f28a6d">
+    <name>Описание</name>
+    <synonym>
+      <key>en</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="af5b9e7d-3e4d-4352-80e1-18800a938a4c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

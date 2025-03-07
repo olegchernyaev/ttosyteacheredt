@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9aaf821e-5044-4045-8c55-8c4a6c5589b6">
+  <producedTypes>
+    <objectType typeId="87f03514-5aa1-4c16-98c5-005bac5c274b" valueTypeId="753bb0df-c39b-445f-bf7b-ddc939bd006e"/>
+    <refType typeId="c88ee718-a479-4ca9-9dd7-75e8dc420b2b" valueTypeId="0bea99d5-4d43-453e-b012-553f2723f7a6"/>
+    <selectionType typeId="d4d507a8-697d-4a86-90bc-f3ce35927d8e" valueTypeId="06473fe5-eb50-4a05-bf39-2c76d85d3b1f"/>
+    <listType typeId="9afaa43c-2b0d-45b2-9527-7c9f4db0f653" valueTypeId="27217ded-64ff-4862-b46f-5be835d03399"/>
+    <managerType typeId="00d3813f-3b05-4371-ae05-6c141efb2fba" valueTypeId="40fff5f5-da54-4c52-8882-0227c5780de6"/>
+  </producedTypes>
+  <name>ДлительностьЗанятий</name>
+  <synonym>
+    <key>en</key>
+    <value>Длительность занятий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДлительностьЗанятий.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ac055e07-15f3-4d0f-ab96-05e6b00c389e">
+    <name>ЗначениеМинут</name>
+    <synonym>
+      <key>en</key>
+      <value>Значение минут</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

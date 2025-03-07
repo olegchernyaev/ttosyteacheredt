@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b88eb0c7-8756-4a19-9164-3377ae4071c1">
+  <name>ЗанятияБезПодтверждения</name>
+  <synonym>
+    <key>en</key>
+    <value>Занятия без подтверждения</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

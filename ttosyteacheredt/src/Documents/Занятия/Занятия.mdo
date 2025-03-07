@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="879b5ebd-b47e-4335-93e9-3308c44e12c0">
+  <producedTypes>
+    <objectType typeId="6c701c76-7d66-4c88-87f0-a3752a49d51d" valueTypeId="32caa322-ba97-42a4-9379-7b7792f539cd"/>
+    <refType typeId="ac94be73-727c-4e99-8438-8ed1734f86e1" valueTypeId="4bd7d157-cfb4-453c-8328-38b58d03fe13"/>
+    <selectionType typeId="85045ff6-bb23-4cb4-bd0d-316cc3180a20" valueTypeId="145b1635-0dbb-4690-9746-a3f03ab4630b"/>
+    <listType typeId="3df4aee9-6a66-441f-a9b0-9c2b045810a2" valueTypeId="8cd46b80-4571-4105-9b05-bdedcbd73c10"/>
+    <managerType typeId="55fc44c1-6e7c-4b79-b483-22e0d0516dba" valueTypeId="c569f37f-5fa4-47f6-8ca6-0298f61911a0"/>
+  </producedTypes>
+  <name>Занятия</name>
+  <synonym>
+    <key>en</key>
+    <value>Занятия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Занятия.StandardAttribute.Number</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>en</key>
+      <value>ДФ='dd.MM.yyyy HH:mm'</value>
+    </format>
+    <editFormat>
+      <key>en</key>
+      <value>ДФ='dd.MM.yyyy HH:mm'</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Занятие</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>en</key>
+    <value>Занятие</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Занятия</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>en</key>
+    <value>Список занятий</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Занятия.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Занятия.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.РасписаниеЗанятий</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4b34f275-23d5-4e12-abd7-b7dd74f300b3">
+    <name>ТемаПреподователя</name>
+    <synonym>
+      <key>en</key>
+      <value>ТемаУрока</value>
+    </synonym>
+    <comment>тема урока преподавателя</comment>
+    <type>
+      <types>CatalogRef.ТемыПреподователей</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>тема урока преподавателя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f136e927-60b3-45b8-bc40-2b72da5a9e47">
+    <name>ТемаПоУчебнику</name>
+    <synonym>
+      <key>en</key>
+      <value>Тема по учебнику</value>
+    </synonym>
+    <comment>тема по программе учебника</comment>
+    <type>
+      <types>CatalogRef.ТемыПоУчебникам</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>тема по программе учебника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb9477a9-f122-4e99-b63e-480c8c082c6d">
+    <name>ИндивидуальноеЗанятие</name>
+    <synonym>
+      <key>en</key>
+      <value>Индивидуальное занятие</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="381b43d2-8e26-11ea-b788-b8e85620458e">
+    <name>ДомашнееЗадание</name>
+    <synonym>
+      <key>en</key>
+      <value>Домашнее задание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cbd1de0-8e28-11ea-b788-b8e85620458e">
+    <name>Дисциплина</name>
+    <synonym>
+      <key>en</key>
+      <value>Дисциплина</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДисциплиныЗанятий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ae2ecc9-c908-43ee-8244-711cc028ec83">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>en</key>
+      <value>Преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ca7111d-92c8-4ff0-98a2-35f9dd2a1033">
+    <name>Примечание</name>
+    <synonym>
+      <key>en</key>
+      <value>Примечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f7f9f800-4015-43e7-98eb-0b2064582e6c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="853305c1-438a-40e0-b30e-ccced176ab8a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="3d2ef2fe-69fe-49f7-9df2-f3cdeb00c0e4">
+    <producedTypes>
+      <objectType typeId="1043d083-52ac-4f3c-b380-b5f85b4059ea" valueTypeId="3b975c3c-747d-45de-940e-7d0eae27e631"/>
+      <rowType typeId="546a5d3a-9a2b-4115-9ffb-b15e004ea73c" valueTypeId="d631f6b6-66f9-4ca1-a94e-b7db5effc744"/>
+    </producedTypes>
+    <name>Уроки</name>
+    <synonym>
+      <key>en</key>
+      <value>Уроки</value>
+    </synonym>
+    <attributes uuid="5b9bc745-e6b3-4510-bd7e-efa1fa7fe367">
+      <name>Длительность</name>
+      <synonym>
+        <key>en</key>
+        <value>Длительность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДлительностьЗанятий</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4a026d1-d0a8-4b21-a5ce-e1dd74220830">
+      <name>Сумма</name>
+      <synonym>
+        <key>en</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="083ebdf8-5443-453a-a56e-a131356dbb09">
+      <name>Замечание</name>
+      <synonym>
+        <key>en</key>
+        <value>Замечание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="19922d18-cce8-4eb1-8659-f474fbbde5b4">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>en</key>
+        <value>Дата начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <quickChoice>Use</quickChoice>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a40f5355-ad97-4f96-b29d-8fc83a8c477b">
+      <name>Обучающийся</name>
+      <synonym>
+        <key>en</key>
+        <value>Обучающийся</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Обучающиеся</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="79114c56-53c5-4263-a2f1-f384872966a7">
+      <name>Оценка</name>
+      <synonym>
+        <key>en</key>
+        <value>Оценка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

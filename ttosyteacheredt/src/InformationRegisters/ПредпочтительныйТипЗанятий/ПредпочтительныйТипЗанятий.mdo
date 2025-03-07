@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cab4f9d6-7c2e-11ea-a782-32001126e000">
+  <producedTypes>
+    <selectionType typeId="cab4e982-7c2e-11ea-a782-32001126e000" valueTypeId="cab4e983-7c2e-11ea-a782-32001126e000"/>
+    <listType typeId="cab4e984-7c2e-11ea-a782-32001126e000" valueTypeId="cab4e985-7c2e-11ea-a782-32001126e000"/>
+    <managerType typeId="cab4e979-7c2e-11ea-a782-32001126e000" valueTypeId="cab4e97a-7c2e-11ea-a782-32001126e000"/>
+    <recordSetType typeId="cab4e98c-7c2e-11ea-a782-32001126e000" valueTypeId="cab4e98d-7c2e-11ea-a782-32001126e000"/>
+    <recordKeyType typeId="cab4e98e-7c2e-11ea-a782-32001126e000" valueTypeId="cab4e996-7c2e-11ea-a782-32001126e000"/>
+    <recordType typeId="cab4e96e-7c2e-11ea-a782-32001126e000" valueTypeId="cab4e978-7c2e-11ea-a782-32001126e000"/>
+    <recordManagerType typeId="cab4e997-7c2e-11ea-a782-32001126e000" valueTypeId="cab4e998-7c2e-11ea-a782-32001126e000"/>
+  </producedTypes>
+  <name>ПредпочтительныйТипЗанятий</name>
+  <synonym>
+    <key>en</key>
+    <value>Предпочтительный тип занятий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>en</key>
+      <value>ДФ='dd.MM.yyyy HH:mm:ss'</value>
+    </format>
+    <editFormat>
+      <key>en</key>
+      <value>ДФ='dd.MM.yyyy HH:mm:ss'</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f2d2cfc4-7c2e-11ea-a782-32001126e000">
+    <name>ТипПроведенияЗанятий</name>
+    <synonym>
+      <key>en</key>
+      <value>Тип проведения занятий</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПроведенияЗанятий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ea466258-7c2e-11ea-a782-32001126e000">
+    <name>Обучающийся</name>
+    <synonym>
+      <key>en</key>
+      <value>Обучающийся</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обучающиеся</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

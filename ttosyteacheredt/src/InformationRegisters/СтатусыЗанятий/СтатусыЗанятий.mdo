@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48dd2e58-65f5-4834-827e-6e9e2a6446eb">
+  <producedTypes>
+    <selectionType typeId="a301868c-3aaa-4848-8e3f-3c579e43bf60" valueTypeId="2f10b951-377c-471f-ac7a-1e3227940996"/>
+    <listType typeId="dd5d0d78-a1ca-4cc3-9ad3-406ddf8e9183" valueTypeId="3e82587c-456a-4701-b845-dbe84a858d30"/>
+    <managerType typeId="7fdc37fa-f7db-43fd-b20d-308f1fbb8ab4" valueTypeId="52711083-bfd7-4444-9edd-4be01bc54bd9"/>
+    <recordSetType typeId="2b604651-303b-48ce-93ed-002cd13831f7" valueTypeId="e5d63058-fdca-4be4-9668-1ac91e4d9376"/>
+    <recordKeyType typeId="e21edd00-40ca-4454-8d48-229c21d9ae70" valueTypeId="fb15a03c-2402-4e23-82fa-b0088b8e10b7"/>
+    <recordType typeId="04a786dd-f3ae-443c-85ed-f6e2404834af" valueTypeId="cb9ecfb1-b973-491c-9c54-3db990d3a973"/>
+    <recordManagerType typeId="abebb375-596d-4b2e-8aa3-ea6815faa3cf" valueTypeId="1f6a1597-7bc1-428b-bb70-6249d5c74352"/>
+  </producedTypes>
+  <name>СтатусыЗанятий</name>
+  <synonym>
+    <key>en</key>
+    <value>Статусы занятий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fd6c9cc9-b8fb-4e62-8856-73d136c5dce9">
+    <name>СтатусЗанятия</name>
+    <synonym>
+      <key>en</key>
+      <value>Статус занятия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗанятий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="13aa5498-fa36-40c2-a156-5a2749d07e79">
+    <name>Занятие</name>
+    <synonym>
+      <key>en</key>
+      <value>Занятие</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Занятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e8c2c0c-5b1d-4721-9817-c8856bae57a1">
+  <producedTypes>
+    <selectionType typeId="9c9d2a1e-025c-4c30-9c4f-3fbadd495f9c" valueTypeId="9d024a72-c0c6-49c9-aefe-cc8f90a05b33"/>
+    <listType typeId="3fdc7f23-7799-4237-9310-9afeaf162a8b" valueTypeId="895e6e7d-78f3-45e0-b717-41d295d0567f"/>
+    <managerType typeId="a57dde79-963c-4412-aafe-1ccc2590ad9d" valueTypeId="5074584b-775f-443a-baa9-0e5d35b12bb4"/>
+    <recordSetType typeId="c528174a-470f-4521-9fa5-89786934d6df" valueTypeId="89531439-4607-411a-89e5-013ae85fcdeb"/>
+    <recordKeyType typeId="4d05c7d3-d27a-4914-b81b-41654754bfce" valueTypeId="f71f8a1f-267a-4f72-be67-b445f010beb7"/>
+    <recordType typeId="724b8275-d5e1-491f-9d8e-b70ae5d8fa8f" valueTypeId="195a85db-398f-4d80-a9b6-24ca2c0cb18b"/>
+    <recordManagerType typeId="0e9d1f3e-6de4-46f5-b549-2c5c1102b1f5" valueTypeId="157f275e-66c6-49b3-a0b2-db2bf47f88af"/>
+  </producedTypes>
+  <name>РасписаниеЗанятий</name>
+  <synonym>
+    <key>en</key>
+    <value>Расписание занятий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.РасписаниеЗанятий.Form.ФормаСписка1</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <synonym>
+      <key>en</key>
+      <value>Занятие</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>en</key>
+      <value>ДатаЗанятия</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>en</key>
+      <value>dd.MM.yyyy HH:mm:ss</value>
+    </format>
+    <editFormat>
+      <key>en</key>
+      <value>dd.MM.yyyy HH:mm:ss</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7cbd8ce2-cf63-4849-8922-34d54544405e">
+    <name>Длительность</name>
+    <synonym>
+      <key>en</key>
+      <value>Длительность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДлительностьЗанятий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ccf53be8-06f7-4031-98c2-258e51a8854c">
+    <name>Дисциплина</name>
+    <synonym>
+      <key>en</key>
+      <value>Дисциплина</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДисциплиныЗанятий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f740bad5-42e6-4c6b-8c46-ed301292ca4f">
+    <name>ТемаПреподавателя</name>
+    <synonym>
+      <key>en</key>
+      <value>Тема преподавателя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТемыПреподователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f0ce7a4e-7a73-416a-b485-310f71cd9ce3">
+    <name>ТемаПоУчебнику</name>
+    <synonym>
+      <key>en</key>
+      <value>Тема по учебнику</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТемыПоУчебникам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d4d8fc70-9f73-4394-b397-9d93dfac1344">
+    <name>Замечание</name>
+    <synonym>
+      <key>en</key>
+      <value>Замечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="cb429831-4128-447a-ba26-d5a5fe128084">
+    <name>ДомашнееЗадание</name>
+    <synonym>
+      <key>en</key>
+      <value>Домашнее задание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="72e00458-2c67-4fdf-a4fa-5c4c69deb4e0">
+    <name>Оценка</name>
+    <synonym>
+      <key>en</key>
+      <value>Оценка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f9d8d9d0-2d88-4a36-9f70-9afe42c86fc9">
+    <name>ИндивидуальноеЗанятие</name>
+    <synonym>
+      <key>en</key>
+      <value>Индивидуальное занятие</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="44d07610-035d-4af1-8493-2de9b2270505">
+    <name>Сумма</name>
+    <synonym>
+      <key>en</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b1fe9d14-c14f-4479-af19-59289d9cb471">
+    <name>Занятие</name>
+    <synonym>
+      <key>en</key>
+      <value>Занятие</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Занятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9b0f9770-1ea5-453d-9dec-b301fe85a065">
+    <name>Обучающийся</name>
+    <synonym>
+      <key>en</key>
+      <value>Обучающийся</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обучающиеся</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0750e5ea-33a1-43fe-b681-c4a1ee8f9fc1">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>en</key>
+      <value>Преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a7e39ac6-8e2a-11ea-b788-b8e85620458e">
+    <name>ФормаСписка1</name>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69c5900a-d56a-4252-95c8-b889d74b03ec">
+  <producedTypes>
+    <managerType typeId="4ee3899c-9ba3-4fd6-9964-6dba1fb3b4ef" valueTypeId="9d285723-5f37-4b98-bbec-c60b25eb8146"/>
+    <valueManagerType typeId="a7886420-9231-4ef1-8f45-601836782c50" valueTypeId="4ef8551e-2794-4da5-815f-1c02d8d2034c"/>
+    <valueKeyType typeId="f2f5636d-f426-44f3-a13c-de085d4bde1e" valueTypeId="edc42e11-d61e-484a-8720-5196ebe7d411"/>
+  </producedTypes>
+  <name>РазмерШрифтаТекстаПланировщика</name>
+  <synonym>
+    <key>en</key>
+    <value>Размер шрифта текста планировщика</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:StringValue">
+    <value>6</value>
+  </minValue>
+  <maxValue xsi:type="core:StringValue">
+    <value>30</value>
+  </maxValue>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

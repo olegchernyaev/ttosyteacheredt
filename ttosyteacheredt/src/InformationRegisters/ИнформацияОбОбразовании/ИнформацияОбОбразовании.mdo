@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0458c382-7c31-11ea-a782-32001126e000">
+  <producedTypes>
+    <selectionType typeId="0458c370-7c31-11ea-a782-32001126e000" valueTypeId="0458c371-7c31-11ea-a782-32001126e000"/>
+    <listType typeId="0458c372-7c31-11ea-a782-32001126e000" valueTypeId="0458c373-7c31-11ea-a782-32001126e000"/>
+    <managerType typeId="0458c36e-7c31-11ea-a782-32001126e000" valueTypeId="0458c36f-7c31-11ea-a782-32001126e000"/>
+    <recordSetType typeId="0458c378-7c31-11ea-a782-32001126e000" valueTypeId="0458c379-7c31-11ea-a782-32001126e000"/>
+    <recordKeyType typeId="0458c37a-7c31-11ea-a782-32001126e000" valueTypeId="0458c37b-7c31-11ea-a782-32001126e000"/>
+    <recordType typeId="0458c364-7c31-11ea-a782-32001126e000" valueTypeId="0458c365-7c31-11ea-a782-32001126e000"/>
+    <recordManagerType typeId="0458c37c-7c31-11ea-a782-32001126e000" valueTypeId="0458c37d-7c31-11ea-a782-32001126e000"/>
+  </producedTypes>
+  <name>ИнформацияОбОбразовании</name>
+  <synonym>
+    <key>en</key>
+    <value>Информация об образовании</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>en</key>
+      <value>dd.MM.yyyy HH:mm:ss</value>
+    </format>
+    <editFormat>
+      <key>en</key>
+      <value>dd.MM.yyyy HH:mm:ss</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="59d4923c-7c31-11ea-a782-32001126e000">
+    <name>УчебноеЗаведение</name>
+    <synonym>
+      <key>en</key>
+      <value>Учебное заведение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеЗаведения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4a19ba98-7c31-11ea-a782-32001126e000">
+    <name>ГодОбучения</name>
+    <synonym>
+      <key>en</key>
+      <value>Год обучения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ff8a0418-7c32-11ea-a782-32001126e000">
+    <name>УчебноеПособие</name>
+    <synonym>
+      <key>en</key>
+      <value>Учебное пособие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеПособия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="41877672-7c31-11ea-a782-32001126e000">
+    <name>Обучающийся</name>
+    <synonym>
+      <key>en</key>
+      <value>Обучающийся</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Обучающиеся</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

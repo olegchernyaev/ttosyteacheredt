@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9b8d147-5a54-4460-8be0-ccccab4a9026">
+  <producedTypes>
+    <managerType typeId="fc39fbf7-7a81-4614-b1f8-98df1e0ebe22" valueTypeId="53161e84-81fb-4e41-a554-566dc0302ab5"/>
+    <valueManagerType typeId="358958f8-93b8-443c-86eb-220ff592f200" valueTypeId="5da3d133-0470-4238-8840-4ffe99fb1001"/>
+    <valueKeyType typeId="1893dfd9-9e98-4d8f-838d-411b3cd9d2bb" valueTypeId="431d1fc8-4e92-4c1f-9696-c27d738d59b9"/>
+  </producedTypes>
+  <name>ТокенАвторизацииGPT</name>
+  <synonym>
+    <key>en</key>
+    <value>Токен авторизации GPT</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>500</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

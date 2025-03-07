@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3e6d042-9037-45a0-9dbe-9bd5e04f5d2c">
+  <producedTypes>
+    <managerType typeId="d183bdd2-1dbe-46e2-bb19-ecda8d5743ab" valueTypeId="b2584864-6b04-4ba3-99bb-3418f0027f63"/>
+    <valueManagerType typeId="c98b8bd7-cf84-476b-9b21-382daf3cc0bd" valueTypeId="6cea18f5-648d-4110-adf1-351ce5d614b0"/>
+    <valueKeyType typeId="63e11ca8-741c-451f-8df8-0833a9f7f177" valueTypeId="9f6cd2a9-7183-4208-91a3-f01201316d48"/>
+  </producedTypes>
+  <name>НеВыводитьСлучайныеФакты</name>
+  <synonym>
+    <key>en</key>
+    <value>Не выводить случайные факты</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

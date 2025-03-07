@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="763863e9-afff-4de0-b05a-e4ecff0682f4">
+  <producedTypes>
+    <selectionType typeId="ac415058-bfec-4054-9c6b-d87274744baa" valueTypeId="707d5811-3283-4826-a81c-bd7fef3913a4"/>
+    <listType typeId="3ba70497-5f90-4359-9a3d-2c17125b311f" valueTypeId="0e738db5-99a8-450e-a6a2-d4562170cf3e"/>
+    <managerType typeId="2e467da1-7a04-4f38-9e20-b2128d2eb529" valueTypeId="f12d29db-fdc4-4aad-85e6-2d16fc388cd8"/>
+    <recordSetType typeId="7a012124-dcf1-4720-ac8c-535fdd925f59" valueTypeId="12d6a590-54fe-460b-84a8-08e2dd7a27be"/>
+    <recordKeyType typeId="ab6b5e80-ce0c-45f8-b112-4b63ce17898b" valueTypeId="160df642-c45b-4f34-9415-f9a223b5c7e3"/>
+    <recordType typeId="44b5a2a4-28bd-46e6-aa34-2a9b970ad170" valueTypeId="ebd65a3f-60e8-4d60-82c4-b238444e8b66"/>
+  </producedTypes>
+  <name>ОплатаЗанятий</name>
+  <synonym>
+    <key>en</key>
+    <value>Оплата занятий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="d284c3d3-9f7a-4f1a-803f-779cd8226792">
+    <name>СуммаОплаты</name>
+    <synonym>
+      <key>en</key>
+      <value>Сумма оплаты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="6465119d-cba5-4e6a-a426-42934bccd0c8">
+    <name>Занятие</name>
+    <synonym>
+      <key>en</key>
+      <value>Занятие</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Занятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

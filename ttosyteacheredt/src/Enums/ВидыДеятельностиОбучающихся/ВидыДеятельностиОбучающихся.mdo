@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fee1f97c-7c31-11ea-a782-32001126e000">
+  <producedTypes>
+    <refType typeId="fee1f968-7c31-11ea-a782-32001126e000" valueTypeId="fee1f969-7c31-11ea-a782-32001126e000"/>
+    <listType typeId="fee1f96a-7c31-11ea-a782-32001126e000" valueTypeId="fee1f972-7c31-11ea-a782-32001126e000"/>
+    <managerType typeId="fee1f973-7c31-11ea-a782-32001126e000" valueTypeId="fee1f974-7c31-11ea-a782-32001126e000"/>
+  </producedTypes>
+  <name>ВидыДеятельностиОбучающихся</name>
+  <synonym>
+    <key>en</key>
+    <value>Виды деятельности обучающихся</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="20538738-7c32-11ea-a782-32001126e000">
+    <name>Безработный</name>
+    <synonym>
+      <key>en</key>
+      <value>Безработный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="242fb264-7c32-11ea-a782-32001126e000">
+    <name>Работающий</name>
+    <synonym>
+      <key>en</key>
+      <value>Работающий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c646d3a-7c32-11ea-a782-32001126e000">
+    <name>Ученик</name>
+    <synonym>
+      <key>en</key>
+      <value>Ученик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f763882-7c32-11ea-a782-32001126e000">
+    <name>Студент</name>
+    <synonym>
+      <key>en</key>
+      <value>Студент</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

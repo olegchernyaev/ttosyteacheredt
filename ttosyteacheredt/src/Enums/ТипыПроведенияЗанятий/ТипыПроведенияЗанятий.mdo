@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff6cfa21-7c2e-11ea-a782-32001126e000">
+  <producedTypes>
+    <refType typeId="ff6cfa16-7c2e-11ea-a782-32001126e000" valueTypeId="ff6cfa17-7c2e-11ea-a782-32001126e000"/>
+    <listType typeId="ff6cfa18-7c2e-11ea-a782-32001126e000" valueTypeId="ff6cfa19-7c2e-11ea-a782-32001126e000"/>
+    <managerType typeId="ff6cfa1a-7c2e-11ea-a782-32001126e000" valueTypeId="ff6cfa20-7c2e-11ea-a782-32001126e000"/>
+  </producedTypes>
+  <name>ТипыПроведенияЗанятий</name>
+  <synonym>
+    <key>en</key>
+    <value>Типы проведения занятий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="154dc1d0-7c2f-11ea-a782-32001126e000">
+    <name>Online</name>
+    <synonym>
+      <key>en</key>
+      <value>Online</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="221def34-7c2f-11ea-a782-32001126e000">
+    <name>Offline</name>
+    <synonym>
+      <key>en</key>
+      <value>Offline</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9dc0357-ca21-430c-9e3e-2ef16cedc61b">
+  <producedTypes>
+    <selectionType typeId="513ab875-f33b-42d9-9026-d57e04c5f82b" valueTypeId="d83f4193-214b-44fd-828a-0238b2f7ffa6"/>
+    <listType typeId="d7c4c8c0-da4d-4b7a-846b-e5096e9075e6" valueTypeId="68983ec1-f4f2-4324-a523-9c5e8eafb561"/>
+    <managerType typeId="19a697de-612f-406e-9a2f-75cdf530fa12" valueTypeId="38c91a44-52a3-4f55-b7af-d3655cfecdbe"/>
+    <recordSetType typeId="66c41d24-fa3a-4dbe-809c-7ba9b1b98047" valueTypeId="4489b8a9-a200-405f-b3d8-906f5e211fc4"/>
+    <recordKeyType typeId="fee91284-1fe1-4273-9180-47937adad37f" valueTypeId="85f37215-442c-4c89-a184-22ccc3367aa3"/>
+    <recordType typeId="df939aa8-210b-4315-bfcc-4d27affbd8cc" valueTypeId="86e3d3d9-261c-4c78-80f3-8ae778eed215"/>
+    <recordManagerType typeId="2547996e-a55b-46ae-85b9-2db58b7b84c7" valueTypeId="c3f2339a-0477-454c-849b-e5d721374128"/>
+  </producedTypes>
+  <name>СлучайныеПожелания</name>
+  <synonym>
+    <key>en</key>
+    <value>Случайные пожелания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="54003578-bb69-4a63-9166-aa9c045abb8e">
+    <name>ТекстПожелания</name>
+    <synonym>
+      <key>en</key>
+      <value>Текст пожелания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="95b10b74-fdde-412e-8d8c-db61f683e31e">
+    <name>БылоВыведено</name>
+    <synonym>
+      <key>en</key>
+      <value>Было выведено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e3b108ab-aff2-4125-823a-442c2ca38144">
+    <name>Пользователь</name>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

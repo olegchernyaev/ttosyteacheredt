@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d540ccf8-bd8f-477e-9054-785b7aa15a49">
+  <producedTypes>
+    <objectType typeId="922de426-5935-471a-b92d-53509ecea7e7" valueTypeId="e4b4a4d1-fefc-47b5-ad13-2aba15786674"/>
+    <refType typeId="5fd1bbc7-c0d6-4c40-96fe-e95c38fb10e8" valueTypeId="60135c61-3f9f-409e-bd71-7ec80266001b"/>
+    <selectionType typeId="a193986a-55e2-49dd-ae3b-b0d34c8234a3" valueTypeId="568c0c90-d6a1-4e8f-86ed-bb7a42739b11"/>
+    <listType typeId="e029195e-c8c0-4e24-9fdb-8c0c01bb6555" valueTypeId="e7d204bf-6f8e-444a-862e-4f30dbacd346"/>
+    <managerType typeId="08d0bde6-562c-44cd-b7d5-c978e11640bb" valueTypeId="c0864a89-b1f5-4510-9098-7cdab5201041"/>
+  </producedTypes>
+  <name>ТемыПочтовыхРассылок</name>
+  <synonym>
+    <key>en</key>
+    <value>Темы почтовых рассылок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТемыПочтовыхРассылок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТемыПочтовыхРассылок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="405996e1-5c0e-4895-b10a-f675ba91904a">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>en</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

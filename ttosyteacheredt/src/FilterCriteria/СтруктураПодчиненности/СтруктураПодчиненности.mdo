@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6221f42c-5cda-43cb-bf59-9cf7a55466f1">
+  <producedTypes>
+    <listType typeId="236b9a25-b425-4b24-96f8-08a39795bc44" valueTypeId="98049242-a838-4089-a49d-3dace5a5a535"/>
+    <managerType typeId="c982e8f7-49ba-4778-aaca-f40674b87f61" valueTypeId="c61a66b6-c330-4203-b5f9-8e50d90da61a"/>
+  </producedTypes>
+  <name>СтруктураПодчиненности</name>
+  <synonym>
+    <key>en</key>
+    <value>Структура подчиненности</value>
+  </synonym>
+  <type>
+    <types>DocumentRef</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ПодтверждениеЗанятия.Attribute.Занятие</content>
+  <content>Document.ПодтверждениеОплаты.Attribute.Занятие</content>
+  <explanation>
+    <key>en</key>
+    <value>Структура подчиненности документов</value>
+  </explanation>
+</mdclass:FilterCriterion>

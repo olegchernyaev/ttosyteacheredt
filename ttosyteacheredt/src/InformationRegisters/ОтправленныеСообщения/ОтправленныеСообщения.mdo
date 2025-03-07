@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b2a01b3-ca07-4f82-a6f2-cd46401150ad">
+  <producedTypes>
+    <selectionType typeId="f381ebfc-e9f5-4bc3-a79f-e382a2ae9c89" valueTypeId="ed68db44-6524-486e-b1b1-fc6a981cfab5"/>
+    <listType typeId="163ea57c-856d-4540-9f6f-d0d67f09a82d" valueTypeId="dcb1a278-0e25-47ea-8e68-7a61d54a5c73"/>
+    <managerType typeId="8fb9dd04-c4d0-40a1-bca3-775f8d71c85f" valueTypeId="29a0c1f0-0c67-4378-acef-f2a8006f6c0d"/>
+    <recordSetType typeId="97679696-a850-47f3-a04e-ad5ca908ff80" valueTypeId="4482727b-6032-4195-bdc8-54301a6152e3"/>
+    <recordKeyType typeId="2d2e73a5-5adf-4c13-a9b4-b7c2929548a8" valueTypeId="5b790312-f982-41de-a1cb-40eb2dc9ef35"/>
+    <recordType typeId="096e43e2-a2b9-4f5c-87b4-ba5776f99791" valueTypeId="73819356-b1c6-4462-acc6-fa2ce1332b8e"/>
+    <recordManagerType typeId="20add166-cbdd-4395-87b9-54dc99f9e521" valueTypeId="8953cd77-10b5-4a17-81bf-3fd77f6484a4"/>
+  </producedTypes>
+  <name>ОтправленныеСообщения</name>
+  <synonym>
+    <key>en</key>
+    <value>Отправленные сообщения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d559df54-8add-4d23-bb94-0eba5b467f65">
+    <name>Отправлено</name>
+    <synonym>
+      <key>en</key>
+      <value>Отправлено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="68ee12ab-8981-43c1-b3e6-437e9d8c7f15">
+    <name>Клиент</name>
+    <synonym>
+      <key>en</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПотенциальныеКлиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4afdbeb8-f591-4d61-90c9-06ccf3abc157">
+    <name>ТемаРассылки</name>
+    <synonym>
+      <key>en</key>
+      <value>Тема рассылки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТемыПочтовыхРассылок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

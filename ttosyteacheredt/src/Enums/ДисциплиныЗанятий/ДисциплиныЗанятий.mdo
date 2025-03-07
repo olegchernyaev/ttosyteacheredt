@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d371e0f8-7166-4732-992a-8d28ee3ea95b">
+  <producedTypes>
+    <refType typeId="ed77aaad-7b99-4afd-bde3-7bbcf5bbb1a1" valueTypeId="473bf64e-3201-4e92-8a96-966771ccac87"/>
+    <listType typeId="05d14e63-72c8-4266-8590-579bfb7776fe" valueTypeId="bd0616d8-520e-4176-8d07-68325b2a0e72"/>
+    <managerType typeId="af8e46fc-0066-4283-8985-3e4fa48a137c" valueTypeId="67db2256-5205-48d9-93f4-5e73dbb928dd"/>
+  </producedTypes>
+  <name>ДисциплиныЗанятий</name>
+  <synonym>
+    <key>en</key>
+    <value>Дисциплины занятий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="caa0e796-2a25-4700-b745-17f2e591a299">
+    <name>Английский</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13bb636a-2b70-49fa-aced-8c8576da89f9">
+    <name>Немецкий</name>
+    <synonym>
+      <key>en</key>
+      <value>Deutsch</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

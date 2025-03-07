@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d58a194b-8d36-4872-a553-e5bbece2b450">
+  <producedTypes>
+    <objectType typeId="e7e63a18-3b31-4762-bbca-4c828395f6be" valueTypeId="a96b7df7-825c-4bb3-80f5-7e91c81f6f00"/>
+    <refType typeId="6b03ae81-8733-4bd4-bfcd-e7e224ddf2c6" valueTypeId="2fddf6fb-e15d-4d35-a34f-7030dc239d6d"/>
+    <selectionType typeId="5fa98e24-f727-4ab6-ad74-4c500eebd132" valueTypeId="d37dac84-d27a-45b2-90eb-63d0c1c5353e"/>
+    <listType typeId="93b5c13e-2f59-4085-bb3b-389238eae34b" valueTypeId="9344320a-963e-4550-8dd8-408023d163a0"/>
+    <managerType typeId="a221e055-32b4-45b9-a225-c1276b119de7" valueTypeId="509a8ab2-0492-4905-862a-9a9202b97485"/>
+  </producedTypes>
+  <name>ОбщиеЗадачи</name>
+  <synonym>
+    <key>en</key>
+    <value>Общие задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ОбщиеЗадачи.StandardAttribute.Description</inputByString>
+  <inputByString>Task.ОбщиеЗадачи.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>25</descriptionLength>
+  <currentPerformer>SessionParameter.ТекущийПользователь</currentPerformer>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+</mdclass:Task>

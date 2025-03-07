@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05e70d09-ce6e-4fca-9ab1-e84953372e6e">
+  <name>СтруктураПодчиненности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.ПодтверждениеЗанятия</types>
+    <types>DocumentRef.Занятия</types>
+  </commandParameterType>
+  <representation>Picture</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Перейти к списку связанных документов</value>
+  </toolTip>
+  <shortcut>Ctrl+Shift+S</shortcut>
+</mdclass:CommonCommand>
